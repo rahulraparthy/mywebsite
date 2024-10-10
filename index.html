@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Your Name</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Full screen landing section */
+        .landing {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+        }
+
+        .landing h1 {
+            color: white;
+            font-size: 4rem;
+        }
+
+        /* About Section */
+        .about {
+            padding: 50px;
+            background: #f4f4f4;
+            text-align: center;
+        }
+
+        .about h2 {
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+
+        /* Portfolio Section */
+        .portfolio {
+            padding: 50px;
+            background: white;
+            text-align: center;
+        }
+
+        .portfolio h2 {
+            margin-bottom: 20px;
+        }
+
+        .portfolio .projects {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .project {
+            width: 30%;
+            margin: 10px;
+            background: #eee;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 50px;
+            background: #f4f4f4;
+            text-align: center;
+        }
+
+        .contact h2 {
+            margin-bottom: 20px;
+        }
+
+        .contact form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact input,
+        .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .contact button {
+            padding: 10px 20px;
+            background: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact button:hover {
+            background: #555;
+        }
+
+        /* Footer */
+        footer {
+            padding: 20px;
+            background: #333;
+            color: white;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Landing Section -->
+    <section class="landing">
+        <h1>Your Name</h1>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            This is a brief paragraph about you, your background, and your expertise. You can include your professional experience, skills, and what makes you unique.
+        </p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of your project or work. Add a brief overview and some technologies used.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of your project or work. Add a brief overview and some technologies used.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>Description of your project or work. Add a brief overview and some technologies used.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved. | <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
+    </footer>
+
+</body>
+</html>
